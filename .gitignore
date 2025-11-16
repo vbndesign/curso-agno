@@ -7,3 +7,20 @@ wheels/
 
 .venv
 .env
+
+# Agent UI, ignorar artefatos gerados
+agent-ui/node_modules/
+agent-ui/.next/
+agent-ui/.turbo/
+agent-ui/.vercel/
+agent-ui/.cache/
+
+# Env files
+agent-ui/.env*
+agent-ui/.env.local
+
+# MacOS lixo
+agent-ui/.DS_Store
+
+# Lockfile opcional
+agent-ui/yarn.lock
