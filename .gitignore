@@ -4,7 +4,7 @@ buld/
 dist/
 wheels/
 *.egg-info/
-tmp/
+tmp/*
 
 .venv
 .env
